@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-family: verdana;
+    font-family: Sigmar One;
     font-size: 70px;
     margin: 0.2em;
 }
@@ -14,7 +14,39 @@ h2 {
 }
 
 h2:first-of-type {
+    font-family: Sigmar One;
     margin-top: 0.5em;
+}
+
+.can, .colur {
+    font-family: Sigmar One;
+}
+
+#sizePicker {
+
+    font-family: Courgette;
+    font-size: 30px
+}
+
+#input_height, #input_width {
+
+    height: 30px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+#submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 2px;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 table,
